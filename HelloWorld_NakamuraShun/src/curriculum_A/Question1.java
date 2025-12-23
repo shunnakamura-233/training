@@ -6,14 +6,14 @@ public class Question1 {
 		// TODO 自動生成されたメソッド・スタブ
 		
 		// 以下Q1の各種変数宣言と初期値設定
-		byte byteNum = 1; // byte型の変数 byteNum を宣言し 1 を代入
-		short shortNum = 1; // short型の変数 shortNum を宣言し 1 を代入
-		int intNum = 1; // int型の変数 intNum を宣言し 1 を代入
-		long longNum = 1; // long型の変数 longNum を宣言し 1 を代入
-		float floatNum = 1; // float型の変数 floatNum を宣言し 1 を代入
-		double doubleNum = 1; // double型の変数 doubleNum を宣言し 1 を代入
-		char letter = '1'; // char型の変数 letter を宣言し 1 を代入
-		String letters = "1"; // String型の変数 letters を宣言し 1 を代入
+		byte byteNum = 0; // byte型の変数 byteNum を宣言し 1 を代入
+		short shortNum = 0; // short型の変数 shortNum を宣言し 1 を代入
+		int intNum = 0; // int型の変数 intNum を宣言し 1 を代入
+		long longNum = 0L; // long型の変数 longNum を宣言し 1 を代入
+		float floatNum = 0.0f; // float型の変数 floatNum を宣言し 1 を代入
+		double doubleNum = 0.0; // double型の変数 doubleNum を宣言し 1 を代入
+		char letter = '\u0000'; // char型の変数 letter を宣言し 1 を代入
+		String letters = "null"; // String型の変数 letters を宣言し 1 を代入
 		boolean isBoolean = false;// boolen型の変数 isBoolean を宣言し false を代入
 		
 		// 以下Q2のQ1で宣言された各変数に対し指定された値を代入
