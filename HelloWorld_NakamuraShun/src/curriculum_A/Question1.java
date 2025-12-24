@@ -13,7 +13,7 @@ public class Question1 {
 		float floatNum = 0.0f; // float型の変数 floatNum を宣言し 1 を代入
 		double doubleNum = 0.0; // double型の変数 doubleNum を宣言し 1 を代入
 		char letter = '\u0000'; // char型の変数 letter を宣言し 1 を代入
-		String letters = "null"; // String型の変数 letters を宣言し 1 を代入
+		String letters = null; // String型の変数 letters を宣言し 1 を代入
 		boolean isBoolean = false;// boolen型の変数 isBoolean を宣言し false を代入
 		
 		// 以下Q2のQ1で宣言された各変数に対し指定された値を代入
