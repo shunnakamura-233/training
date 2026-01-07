@@ -80,11 +80,13 @@ public class Question2 {
 		// 以下Q8の変数宣言,条件文と出力
 		System.out.println("入力してください");
 		//入力してください と出力
+		scanner.nextLine();
 		String Q8input = scanner.nextLine() ;
 		// 変数 Q8input にコンソール入力された値をを代入
-		if (Q8input == null || Q8input.equals(""))
+		if (Q8input == null || Q8input.equals("")) {
 		// 変数 Q8input が null または空白か判定
         System.out.println("入力が無効です");
+		}
 		//条件が当てはまっていたら 入力が無効です と出力
 		
 		// 以下Q9の変数宣言,条件文と出力
@@ -127,7 +129,7 @@ public class Question2 {
 		//当てはまるものがなかった場合 無効な値です と出力
 		}
 		
-		// 以下Q9の変数宣言,条件文と出力
+		// 以下Q10の変数宣言,条件文と出力
 		System.out.println("数値を入力してください");
 		//数値を入力してください と出力
 		int month = scanner.nextInt() ; 
