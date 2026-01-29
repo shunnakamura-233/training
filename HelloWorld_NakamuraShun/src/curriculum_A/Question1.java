@@ -104,7 +104,7 @@ public class Question1 {
 		// 以下Q13の変数宣言,置き換え,出力
 		String text = "私はJavaが好きです。Javaは楽しい!"; // String型の変数 text を宣言し文章を代入
 		String replaced = text.replace("Java", "Python");
-		//上記String型の変数 replaced を宣言し変数 text 内の "Java" "Python"に置換えて代入
+		// 上記String型の変数 replaced を宣言し変数 text 内の "Java" "Python"に置換えて代入
 		System.out.println(replaced);
 		// 上記変数 replaced に代入した値を出力
 	}
