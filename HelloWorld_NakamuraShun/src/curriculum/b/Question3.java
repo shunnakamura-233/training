@@ -154,11 +154,18 @@ public class Question3 {
             	case "テレビ":
                 case "ディスプレイ":
                     int Q12v = Q12String.equals("テレビ") ? tv : display;
+                    /*
+                 	* 上記変数 Q12String に代入されているのがテレビかディスプレイか条件演算子で判別し
+                 	* それにあわせ変数 Q12v に変数 tv,display のどちらかを代入
+                    */
                     System.out.println(Q12String + "の残り台数は" + Q12v + "台です");
             		break;
                 default:
-                    System.out.println("『 " + Q12String + " 』は指定の商品ではありません");
-                   // 上記変数 Q12String に代入された文字列がいずれも当てはまらなかった場合変数 Q12String を組み合わせて出力
+                System.out.println("『 " + Q12String + " 』は指定の商品ではありません");
+                /* 
+                 * 上記変数 Q12String に代入された文字列がいずれも当てはまらなかった場合
+                 * 変数 Q12String を組み合わせて出力
+				*/
 			}
 		}
 		
