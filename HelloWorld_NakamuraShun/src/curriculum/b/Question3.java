@@ -152,12 +152,9 @@ public class Question3 {
             		// 上記変数 Q12String,Q12i を組み合わせた結果出力
             		break;
             	case "テレビ":
-            		System.out.println("テレビの残り台数は" + tv + "台です。");
-            		// 上記変数 tv を組み合わせたテレビの残り台数の出力
-            		break;
-            	case "ディスプレイ":
-            		System.out.println("テレビの残り台数は" + display + "台です。");
-            		// 上記変数 display を組み合わせたディスプレイの残り台数の出力
+                case "ディスプレイ":
+                    int Q12v = Q12String.equals("テレビ") ? tv : display;
+                    System.out.println(Q12String + "の残り台数は" + Q12v + "台です");
             		break;
                 default:
                     System.out.println("『 " + Q12String + " 』は指定の商品ではありません");
