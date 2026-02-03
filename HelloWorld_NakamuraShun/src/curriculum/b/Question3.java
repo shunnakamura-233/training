@@ -106,17 +106,15 @@ public class Question3 {
 		// 上記変数 Q10i が 0 と同じになるまで反復処理
 			System.out.println("数値を入力してください");
 			// 数値を入力してください と出力
-			Q10i = scanner.nextInt() ; 
-			// 変数 Q10i にコンソール入力された値をを代入
+			Q10i = Integer.parseInt(scanner.nextLine()) ; 
+			// 変数 Q10i にコンソール入力された文字列を数値に変換して代入
 		}
 		System.out.println("終了しました");
 		// 上記 終了しました と出力
-		scanner.nextLine();
-		// 上記scannerの改行破棄（消すとscanner次回以降エラー出る）
 
 	        
 		// 以下Q11の変数宣言,反復処理,出力
-		for ( int Q11i = 01; Q11i <= 9; Q11i ++ ) {
+		for ( int Q11i = 1; Q11i <= 9; Q11i ++ ) {
 		// 上記変数宣言,変数 Q11i が 9 以下になるまでの反復処理
 			for ( int Q11j = 01; Q11j <= 9; Q11j ++ ) {
 			// 上記変数宣言,変数 Q11j が 9 以下の反復処理
