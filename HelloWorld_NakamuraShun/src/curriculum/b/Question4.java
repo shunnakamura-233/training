@@ -71,7 +71,7 @@ public class Question4 {
 		System.out.println("数値を入力してください");
 		// 数値を入力してください と出力
 		int Q6IN = scanner.nextInt() ; 
-		// 変数 value にコンソール入力された値をを代入
+		// 変数 Q6IN にコンソール入力された値をを代入
 		for ( int Q6i = 0; Q6i < Q6s.length ; Q6i ++ ) { 
 		// 上記変数 Q6i を作成し変数 Q6i が配列 Q6s の 要素数未満の間反復処理
 			if (Q6IN == Q6s[Q6i]) {
